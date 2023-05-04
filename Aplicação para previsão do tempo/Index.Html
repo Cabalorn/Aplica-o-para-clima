@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Previsão do Tempo</title>
+	<link rel="stylesheet" type="'text/css" href="Styles.css">
+	<script src="Previsão.js"></script>
+</head>
+<body>
+	<h1>Previsão do Tempo</h1>
+  
+	<div class="container">
+	  <div class="input">
+		<label for="cidade">Cidade:</label>
+		<input type="text" id="cidade" placeholder="Digite o nome da cidade">
+		<button id="buscar">Buscar</button>
+	  </div>
+  
+	  <div class="resultado">
+		<h2 id="cidade-previsao"></h2>
+		<ul>
+		  <li><span class="rotulo">Temperatura:</span> <span id="temperatura"></span></li>
+		  <li><span class="rotulo">Condição:</span> <span id="condicao"></span></li>
+		  <li><span class="rotulo">Umidade:</span> <span id="umidade"></span></li>
+		  <li><span class="rotulo">Velocidade do Vento:</span> <span id="velocidade-vento"></span></li>
+		</ul>
+	  </div>
+	</div>
+  
+	<script src="Previsão.js"></script>
+  </body>  
+</html>
